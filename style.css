@@ -1,0 +1,288 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+body{
+  /* color: white; */
+}
+nav {
+  width: 100vw;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+  background-color: #0286bc;
+  position: fixed;
+  z-index: 10;
+}
+.brand-name {
+  font-size: 22px;
+}
+.brand-name:hover {
+  color: red;
+}
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 30px;
+  list-style: none;
+}
+ul a {
+  color: white;
+  font-size: 26px;
+  text-decoration: none;
+}
+ul a:hover {
+  color: red;
+}
+.moon-sun i {
+  font-size: 26px;
+}
+.moon-sun:hover {
+  color: red;
+}
+#sun {
+  display: none;
+}
+
+/* ----------------------care patient at life care------------------- */
+
+.main {
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 220px;
+  /* color: rgba(109, 102, 102, 0.701); */
+}
+.care-patient {
+  width: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 30px;
+  margin-left: 200px;
+}
+.care-patient h1 {
+  font-size: 70px;
+}
+.care-patient p {
+  font-size: 20px;
+}
+.care-patient a {
+  width: 120px;
+  font-size: 25px;
+  text-align: center;
+  text-decoration: none;
+  padding: 5px 40px;
+  color: white;
+  background-color: #01014c;
+}
+.main img {
+  width: 500px;
+  height: 500px;
+  margin-right: 80px;
+}
+
+/* -------------------our speciality------------------------ */
+
+.our-speciality h2 {
+  font-size: 40px;
+  margin-top: 50px;
+}
+.our-speciality {
+  width: 100%;
+  min-height: 88vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 130px;
+  /* background-color: antiquewhite; */
+}
+.speciality-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.card1 {
+  width: 350px;
+  height: 170px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  color: white;
+  background-color: #0798ed;
+}
+.card1 h3 {
+  font-size: 26px;
+}
+
+/* -------------------our Doctors------------------------ */
+
+.our-doctors {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  /* background-color: aqua; */
+}
+.our-doctors h2 {
+  font-size: 40px;
+  margin-top: 50px;
+}
+.all-doctors {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.doctors-cards {
+  width: 300px;
+  height: 350px;
+  font-size: 25px;
+  text-align: center;
+  font-weight: 200;
+  color: white;
+  background-color: black;
+}
+.doctors-cards img {
+  width: 100%;
+  height: 300px;
+}
+
+/* -------------------Patient Review------------------------ */
+
+.patient-review {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  /* background-color: aqua; */
+}
+.patient-review h2 {
+  font-size: 40px;
+  margin-top: 50px;
+}
+.all-patient {
+  width: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  overflow: hidden;
+}
+.patient-detail{
+  transition: all ease 1s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.patient-cards {
+  width: 300px;
+  height: 350px;
+  font-size: 25px;
+  text-align: center;
+  font-weight: 200;
+  color: white;
+  background-color: black;
+}
+.patient-cards img {
+  width: 100%;
+  height: 100%;
+}
+
+/* ----------------------------footer----------------------------- */
+
+footer {
+  width: 100vw;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 180px;
+  background-color: black;
+}
+.text {
+  width: 300px;
+}
+.footer-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+.footer-list h3 {
+  font-size: 25px;
+  font-weight: 800;
+  color: white;
+}
+.footer-list p {
+  color: white;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+/* ------------------------mode of body black & white------------------- */
+
+.bg-BlandWhite{
+  color: white;
+  background-color: black;
+}
+
+.DocDetail{
+  width: 320px;
+  height: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  color: white;
+  background-color: #264557;
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%,40%);
+}
+.DocDetail p{
+  width: 250px;
+  text-align: center;
+}
+.DocDetail img{
+  background-color: white;
+  color: white;
+}
+#cross{
+  font-size: 28px;
+  color: red;
+  background-color: black;
+  position: absolute;
+  top: 0%;
+  right: 0%;
+
+}
+
+
+/* ---------------------Media Query-------------------- */
+
+@media screen and (max-width: 770) {
+  nav{
+    width: 100%;
+  }
+}
